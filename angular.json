@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "03-paisesApp": {
+    "paisesApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "03-paisesApp:build:production"
+              "browserTarget": "paisesApp:build:production"
             },
             "development": {
-              "browserTarget": "03-paisesApp:build:development"
+              "browserTarget": "paisesApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "03-paisesApp:build"
+            "browserTarget": "paisesApp:build"
           }
         },
         "test": {
